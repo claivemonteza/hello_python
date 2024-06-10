@@ -39,3 +39,8 @@ print('Oliver' in names)
 ## return a number of item in a list
 print(len(names))
 
+
+names = ["Carlos", "Ray", "Alex", "Kelly"]
+print(sorted(names))
+print(names)
+print(sorted(names, key=len))
