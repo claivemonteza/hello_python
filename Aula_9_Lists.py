@@ -54,4 +54,10 @@ print(sorted(names, key=len))
 
 
 ## 
-print(names.append("Claudia"))
+names.append("Claudia")
+print(names)
+
+
+names.pop()
+print(names)
+
