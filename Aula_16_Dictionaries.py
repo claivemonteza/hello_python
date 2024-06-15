@@ -23,3 +23,12 @@ pet_list  = ["Yorkie", "Collie", "Bulldog", "Persian", "Scottish Fold", "Siberia
 print(pet_list[0:3])
 # Should print ['Yorkie', 'Collie', 'Bulldog']
 
+#
+dog = {"name":"Kiki", "age":2, "breed":"Bulldog"}
+print(dog.get("name"))
+
+## if the dictionaries dont have the key 
+print(dog.get("width"))
+## or add a value default
+print(dog.get("width","1.90 cm"))
+
