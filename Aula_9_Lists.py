@@ -1,6 +1,6 @@
 
 
-names = ['Claive','Rolando', 'De','Sousa','Monteza']
+names = ['Claive','Rolando', 'Sousa','Vallejos','Monteza']
 
 # print all list
 print(names)
@@ -45,11 +45,19 @@ print('Oliver' in names)
 ## return a number of item in a list
 print(len(names))
 
-
+## sort
 names = ["Carlos", "Ray", "Alex", "Kelly"]
 print(sorted(names))
 print(names)
 print(sorted(names, key=len))
+
+###or
+names.sort()
+print(names)
+
+## reverse
+names.reverse()
+print(names)
 
 
 
@@ -57,7 +65,13 @@ print(sorted(names, key=len))
 names.append("Claudia")
 print(names)
 
-
+##
 names.pop()
 print(names)
 
+## 
+names2 = names.copy()
+print(names2)
+
+##
+print(names.count('Claive'))
