@@ -16,7 +16,7 @@ class Fruit:
         self.flavor = flavor
 
     def __str__(self):
-        return "a fruit which is {} and {}".format(self.name, self.color, self.flavor)
+        return "an {} which is {} and {}".format(self.name, self.color, self.flavor)
 
 fruit = Fruit("Apply","red", "sweet")
 print(fruit)
