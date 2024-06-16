@@ -18,5 +18,7 @@ class Fruit:
     def __str__(self):
         return "a fruit which is {} and {}".format(self.name, self.color, self.flavor)
 
-honeycrisp = Fruit("Apply","red", "sweet")
-print(honeycrisp)
+fruit = Fruit("Apply","red", "sweet")
+print(fruit)
+#or 
+print(f'This {fruit.name} is so {fruit.flavor}')
