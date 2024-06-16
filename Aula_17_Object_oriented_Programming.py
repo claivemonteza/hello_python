@@ -1,28 +1,22 @@
-class Apple:
+class Fruit:
     def __init__(self):
         self.color = "red"
         self.flavor = "sweet"
+        self.name = "Apple"
 
-honeycrisp = Apple()
+honeycrisp = Fruit()
 print(honeycrisp.color)
 
 
-class Apple:
+class Fruit:
     ##Contructor
-    def __init__(self, color, flavor):
+    def __init__(self, name, color, flavor):
+        self.name = name
         self.color = color
         self.flavor = flavor
 
     def __str__(self):
-        return "an apple which is {} and {}".format(self.color, self.flavor)
+        return "a fruit which is {} and {}".format(self.name, self.color, self.flavor)
 
-honeycrisp = Apple("red", "sweet")
+honeycrisp = Fruit("Apply","red", "sweet")
 print(honeycrisp)
-
-
-class Apple:
-    def __init__(self, color, flavor):
-        self.color = color
-        self.flavor = flavor
-    def __str__(self):
-        return "This apple is {} and its flavor is {}".format(self.color, self.flavor)
