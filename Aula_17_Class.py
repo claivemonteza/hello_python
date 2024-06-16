@@ -16,8 +16,12 @@ class Fruit:
         self.color = color
         self.flavor = flavor
 
-    #Method
-    def eat(self)
+    #Method that return value
+    def eat(self):
+        return f'I am eating a {self.name}'
+
+    #Method with out return value
+    def eat(self):
         print(f'I am eating a {self.name}')
         
     def __str__(self):
