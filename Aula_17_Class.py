@@ -1,4 +1,5 @@
 class Fruit:
+    #Contructor
     def __init__(self):
         self.color = "red"
         self.flavor = "sweet"
@@ -9,12 +10,16 @@ print(fruit.color)
 
 
 class Fruit:
-    ##Contructor
+    #Contructor
     def __init__(self, name, color, flavor):
         self.name = name
         self.color = color
         self.flavor = flavor
 
+    #Method
+    def eat(self)
+        print(f'I am eating a {self.name}')
+        
     def __str__(self):
         return "an {} which is {} and {}".format(self.name, self.color, self.flavor)
 
