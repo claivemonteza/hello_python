@@ -4,8 +4,8 @@ class Fruit:
         self.flavor = "sweet"
         self.name = "Apple"
 
-honeycrisp = Fruit()
-print(honeycrisp.color)
+fruit = Fruit()
+print(fruit.color)
 
 
 class Fruit:
